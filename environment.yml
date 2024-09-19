@@ -1,0 +1,16 @@
+name: pm4py_env
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - numpy
+  - pandas
+  - networkx
+  - matplotlib
+  - scipy
+  - scikit-learn
+
+  - pip
+  - pip:
+      - pm4py
+   
